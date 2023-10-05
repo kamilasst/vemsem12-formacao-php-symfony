@@ -19,7 +19,7 @@ require_once "visitantes.php";
     if(isset($visitantes)) {
     foreach ($visitantes as $cpf => $visitante) : ?>
         <h2>CPF: <?= $cpf ?></h2>
-        <h3>Nome Visitante:  <?= $visitante["nome"] ?></h3>
+        <h3>Visitante:  <?= $visitante["nome"] ?></h3>
         <h3>Email:  <?= $visitante["email"] ?></h3>
         <hr>
     <?php endforeach; ?>

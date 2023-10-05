@@ -57,7 +57,7 @@ if(empty($bancos)){
         echo "$agencia - {$banco["nome"]}, {$banco["cidade"]}, {$banco["estado"]}" . PHP_EOL;
     }
 }
-
+*/
 echo "\nQuantidade de bancos cadastrados no array \n";
 echo "Bancos cadastrados na lista - Quantidade: " , count($bancos);
-*/
+

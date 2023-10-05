@@ -18,4 +18,15 @@ foreach ($visitantes as $visitante) {
     echo $visitante->exibirDados() . PHP_EOL;
 }
 
+//$visistante = $visitantes->buscarPorCpf("245.879.532-54");
+
+
+
+
+
+
+
+
+
+
 
