@@ -8,7 +8,7 @@ require_once "./src/Model/ServicoEstetico.php";
 require_once "./src/Repositorio/ServicoEsteticoRepositorio.php";
 
 $servicoEsteticoRepositorio = new ServicoEsteticoRepositorio($pdo);
-$dadosServico = $servicoEsteticoRepositorio->buscaTodos();
+$dadosServico = $servicoEsteticoRepositorio->buscarTodos();
 ?>
 
 <!doctype html>

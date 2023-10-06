@@ -7,8 +7,6 @@ require_once "./src/conexao-bd.php";
 require_once "./src/Model/ServicoEstetico.php";
 require_once "./src/Repositorio/ServicoEsteticoRepositorio.php";
 
-//echo "Será excluido o produto de id = " . ;
-
 $servicoRepositorio = new ServicoEsteticoRepositorio($pdo);
 $servicoIdDeletar = $_POST["id"];
 

@@ -14,7 +14,7 @@ class ServicoEsteticoRepositorio
         $this->pdo = $pdo;
     }
 
-    public function buscaTodos(): array
+    public function buscarTodos(): array
     {
         $sql = "SELECT * from servicos_esteticos";
         $statement = $this->pdo->query($sql);
