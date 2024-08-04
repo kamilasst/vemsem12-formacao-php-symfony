@@ -11,5 +11,14 @@
     "psr-4": {
       "alura\\Doctrine\\": "src/"
     }
+  },
+  "require-dev": {
+    "phpstan/phpstan": "*"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.org"
+    }
   }
 }

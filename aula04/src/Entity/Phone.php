@@ -18,7 +18,7 @@ class Phone
     public Student $student;
 
     public function __construct(
-    #[Column(length: 11)]
+        #[Column(length: 11)]
         public string $number
     ) {
     }

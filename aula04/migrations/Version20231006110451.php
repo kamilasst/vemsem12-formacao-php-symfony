@@ -21,14 +21,13 @@ final class Version20231006110451 extends AbstractMigration
     {
         $table = $schema->createTable("teste");
 
-        $table->addColumn("id", "integer");
-
-
+        $table->addColumn("id", "integer")->setAutoincrement(true);
+        $table->addColumn("coluna_teste", "string");
+        $table->setPrimaryKey(['id']);
     }
 
     public function down(Schema $schema): void
     {
-        // this down() migration is auto-generated, please modify it to your needs
-
+        $schema->dropTable('teste');
     }
 }
